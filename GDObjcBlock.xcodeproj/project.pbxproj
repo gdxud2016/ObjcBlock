@@ -17,9 +17,7 @@
 		18335B9721B68B80004D13EE /* UILabel+SettingBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 18335B8C21B68B80004D13EE /* UILabel+SettingBlock.m */; };
 		18335B9821B68B80004D13EE /* UITextField+SettingBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 18335B8D21B68B80004D13EE /* UITextField+SettingBlock.m */; };
 		18335B9921B68B80004D13EE /* UIView+SettingBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 18335B8E21B68B80004D13EE /* UIView+SettingBlock.m */; };
-		18335B9E21B68B8E004D13EE /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18335B9C21B68B8E004D13EE /* NewViewController.m */; };
 		18335B9F21B68B8E004D13EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18335B9D21B68B8E004D13EE /* ViewController.m */; };
-		18335BA221B68C06004D13EE /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18335BA121B68C06004D13EE /* TwoViewController.m */; };
 		86D6B3D79B4302BFE35D072F /* Pods_GDObjcBlock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D64EFC1153ED3C94C1B7F4 /* Pods_GDObjcBlock.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,11 +42,7 @@
 		18335B9321B68B80004D13EE /* UILabel+SettingBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+SettingBlock.h"; sourceTree = "<group>"; };
 		18335B9421B68B80004D13EE /* UIView+SettingBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SettingBlock.h"; sourceTree = "<group>"; };
 		18335B9A21B68B8E004D13EE /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18335B9B21B68B8E004D13EE /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
-		18335B9C21B68B8E004D13EE /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
 		18335B9D21B68B8E004D13EE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		18335BA021B68C06004D13EE /* TwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
-		18335BA121B68C06004D13EE /* TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
 		73404B08134913487A756C4B /* Pods-GDObjcBlock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDObjcBlock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GDObjcBlock/Pods-GDObjcBlock.debug.xcconfig"; sourceTree = "<group>"; };
 		A478B92E7DA47D6766325296 /* Pods-GDObjcBlock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDObjcBlock.release.xcconfig"; path = "Pods/Target Support Files/Pods-GDObjcBlock/Pods-GDObjcBlock.release.xcconfig"; sourceTree = "<group>"; };
 		C8D64EFC1153ED3C94C1B7F4 /* Pods_GDObjcBlock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GDObjcBlock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,10 +92,6 @@
 				18335B8921B68B80004D13EE /* ObjcBlock */,
 				18335B7321B68B55004D13EE /* AppDelegate.h */,
 				18335B7421B68B55004D13EE /* AppDelegate.m */,
-				18335B9B21B68B8E004D13EE /* NewViewController.h */,
-				18335B9C21B68B8E004D13EE /* NewViewController.m */,
-				18335BA021B68C06004D13EE /* TwoViewController.h */,
-				18335BA121B68C06004D13EE /* TwoViewController.m */,
 				18335B9A21B68B8E004D13EE /* ViewController.h */,
 				18335B9D21B68B8E004D13EE /* ViewController.m */,
 				18335B7921B68B55004D13EE /* Main.storyboard */,
@@ -264,13 +254,11 @@
 				18335B9F21B68B8E004D13EE /* ViewController.m in Sources */,
 				18335B9721B68B80004D13EE /* UILabel+SettingBlock.m in Sources */,
 				18335B9621B68B80004D13EE /* UIButton+SettingBlock.m in Sources */,
-				18335BA221B68C06004D13EE /* TwoViewController.m in Sources */,
 				18335B9521B68B80004D13EE /* UIImageView+SettingBlock.m in Sources */,
 				18335B9821B68B80004D13EE /* UITextField+SettingBlock.m in Sources */,
 				18335B9921B68B80004D13EE /* UIView+SettingBlock.m in Sources */,
 				18335B8321B68B56004D13EE /* main.m in Sources */,
 				18335B7521B68B55004D13EE /* AppDelegate.m in Sources */,
-				18335B9E21B68B8E004D13EE /* NewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
