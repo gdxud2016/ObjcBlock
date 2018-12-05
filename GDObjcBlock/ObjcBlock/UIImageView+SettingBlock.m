@@ -16,7 +16,9 @@
 +(instancetype)gd_imageView:(void(^)(UIImageView * imageView))block
 {
     UIImageView * imageview = [[UIImageView alloc] init];
-    block(imageview);
+    if (block) {
+        block(imageview);
+    }
     return imageview;
 }
 

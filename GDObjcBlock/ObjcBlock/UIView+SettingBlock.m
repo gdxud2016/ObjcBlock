@@ -13,7 +13,9 @@
 +(instancetype)gd_view:(void(^)(UIView * view))block
 {
     UIView * view = [[UIView alloc] init];
-    block(view);
+    if (block) {
+        block(view);
+    }
     return view;
 }
 #pragma clang diagnostic push

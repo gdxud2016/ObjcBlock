@@ -47,7 +47,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 -(UITextField *(^)(UIView * superView))gd_addToSuperView;
 
-
 @end
 
 NS_ASSUME_NONNULL_END
