@@ -16,7 +16,7 @@
 
 +(instancetype)gd_label:(void(^)(UILabel * label))block
 {
-    UILabel * label = [[UILabel alloc] init];
+    UILabel * label = [[[self class] alloc] init];
     if (block) {
         block(label);
     }

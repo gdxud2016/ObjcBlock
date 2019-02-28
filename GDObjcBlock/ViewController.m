@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "GDBlockHeader.h"
-
 @interface ViewController ()
 @property(nonatomic,strong)UIView * myView;
 @property(nonatomic,strong)UIButton * btn;

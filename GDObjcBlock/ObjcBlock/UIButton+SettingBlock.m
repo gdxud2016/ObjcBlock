@@ -16,7 +16,7 @@
 
 +(instancetype)gd_button:(void(^)(UIButton * button))block
 {
-    UIButton * button = [[UIButton alloc] init];
+    UIButton * button = [[[self class] alloc] init];
     if (block) {
         block(button);
     }

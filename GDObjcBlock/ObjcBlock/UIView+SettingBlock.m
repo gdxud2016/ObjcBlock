@@ -12,7 +12,7 @@
 
 +(instancetype)gd_view:(void(^)(UIView * view))block
 {
-    UIView * view = [[UIView alloc] init];
+    UIView * view = [[[self class] alloc] init];
     if (block) {
         block(view);
     }

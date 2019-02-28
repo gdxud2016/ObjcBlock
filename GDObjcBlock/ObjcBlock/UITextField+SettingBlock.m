@@ -15,7 +15,7 @@
 
 +(instancetype)gd_textField:(void(^)(UITextField * textfield))block
 {
-    UITextField * tf = [[UITextField alloc] init];
+    UITextField * tf = [[[self class] alloc] init];
     if (block) {
         block(tf);
     }

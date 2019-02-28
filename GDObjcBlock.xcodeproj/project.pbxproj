@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182E05472227CC3700F28425 /* UIImageView+SettingBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 182E053C2227CC3700F28425 /* UIImageView+SettingBlock.m */; };
+		182E05482227CC3700F28425 /* UIButton+SettingBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 182E053D2227CC3700F28425 /* UIButton+SettingBlock.m */; };
+		182E05492227CC3700F28425 /* UILabel+SettingBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 182E053E2227CC3700F28425 /* UILabel+SettingBlock.m */; };
+		182E054A2227CC3700F28425 /* UITextField+SettingBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 182E053F2227CC3700F28425 /* UITextField+SettingBlock.m */; };
+		182E054B2227CC3700F28425 /* UIView+SettingBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 182E05402227CC3700F28425 /* UIView+SettingBlock.m */; };
 		18335B7521B68B55004D13EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18335B7421B68B55004D13EE /* AppDelegate.m */; };
 		18335B7B21B68B55004D13EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18335B7921B68B55004D13EE /* Main.storyboard */; };
 		18335B7D21B68B56004D13EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18335B7C21B68B56004D13EE /* Assets.xcassets */; };
 		18335B8021B68B56004D13EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18335B7E21B68B56004D13EE /* LaunchScreen.storyboard */; };
 		18335B8321B68B56004D13EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18335B8221B68B56004D13EE /* main.m */; };
-		18335B9521B68B80004D13EE /* UIImageView+SettingBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 18335B8A21B68B80004D13EE /* UIImageView+SettingBlock.m */; };
-		18335B9621B68B80004D13EE /* UIButton+SettingBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 18335B8B21B68B80004D13EE /* UIButton+SettingBlock.m */; };
-		18335B9721B68B80004D13EE /* UILabel+SettingBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 18335B8C21B68B80004D13EE /* UILabel+SettingBlock.m */; };
-		18335B9821B68B80004D13EE /* UITextField+SettingBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 18335B8D21B68B80004D13EE /* UITextField+SettingBlock.m */; };
-		18335B9921B68B80004D13EE /* UIView+SettingBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 18335B8E21B68B80004D13EE /* UIView+SettingBlock.m */; };
 		18335B9F21B68B8E004D13EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18335B9D21B68B8E004D13EE /* ViewController.m */; };
-		86D6B3D79B4302BFE35D072F /* Pods_GDObjcBlock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D64EFC1153ED3C94C1B7F4 /* Pods_GDObjcBlock.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		182E053C2227CC3700F28425 /* UIImageView+SettingBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SettingBlock.m"; sourceTree = "<group>"; };
+		182E053D2227CC3700F28425 /* UIButton+SettingBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SettingBlock.m"; sourceTree = "<group>"; };
+		182E053E2227CC3700F28425 /* UILabel+SettingBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+SettingBlock.m"; sourceTree = "<group>"; };
+		182E053F2227CC3700F28425 /* UITextField+SettingBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+SettingBlock.m"; sourceTree = "<group>"; };
+		182E05402227CC3700F28425 /* UIView+SettingBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SettingBlock.m"; sourceTree = "<group>"; };
+		182E05412227CC3700F28425 /* GDBlockHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDBlockHeader.h; sourceTree = "<group>"; };
+		182E05422227CC3700F28425 /* UIButton+SettingBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+SettingBlock.h"; sourceTree = "<group>"; };
+		182E05432227CC3700F28425 /* UIImageView+SettingBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SettingBlock.h"; sourceTree = "<group>"; };
+		182E05442227CC3700F28425 /* UITextField+SettingBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+SettingBlock.h"; sourceTree = "<group>"; };
+		182E05452227CC3700F28425 /* UILabel+SettingBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+SettingBlock.h"; sourceTree = "<group>"; };
+		182E05462227CC3700F28425 /* UIView+SettingBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SettingBlock.h"; sourceTree = "<group>"; };
 		18335B7021B68B55004D13EE /* GDObjcBlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDObjcBlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18335B7321B68B55004D13EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18335B7421B68B55004D13EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -30,22 +40,8 @@
 		18335B7F21B68B56004D13EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18335B8121B68B56004D13EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18335B8221B68B56004D13EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		18335B8A21B68B80004D13EE /* UIImageView+SettingBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SettingBlock.m"; sourceTree = "<group>"; };
-		18335B8B21B68B80004D13EE /* UIButton+SettingBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SettingBlock.m"; sourceTree = "<group>"; };
-		18335B8C21B68B80004D13EE /* UILabel+SettingBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+SettingBlock.m"; sourceTree = "<group>"; };
-		18335B8D21B68B80004D13EE /* UITextField+SettingBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+SettingBlock.m"; sourceTree = "<group>"; };
-		18335B8E21B68B80004D13EE /* UIView+SettingBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SettingBlock.m"; sourceTree = "<group>"; };
-		18335B8F21B68B80004D13EE /* GDBlockHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDBlockHeader.h; sourceTree = "<group>"; };
-		18335B9021B68B80004D13EE /* UIButton+SettingBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+SettingBlock.h"; sourceTree = "<group>"; };
-		18335B9121B68B80004D13EE /* UIImageView+SettingBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SettingBlock.h"; sourceTree = "<group>"; };
-		18335B9221B68B80004D13EE /* UITextField+SettingBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+SettingBlock.h"; sourceTree = "<group>"; };
-		18335B9321B68B80004D13EE /* UILabel+SettingBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+SettingBlock.h"; sourceTree = "<group>"; };
-		18335B9421B68B80004D13EE /* UIView+SettingBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SettingBlock.h"; sourceTree = "<group>"; };
 		18335B9A21B68B8E004D13EE /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		18335B9D21B68B8E004D13EE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		73404B08134913487A756C4B /* Pods-GDObjcBlock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDObjcBlock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GDObjcBlock/Pods-GDObjcBlock.debug.xcconfig"; sourceTree = "<group>"; };
-		A478B92E7DA47D6766325296 /* Pods-GDObjcBlock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDObjcBlock.release.xcconfig"; path = "Pods/Target Support Files/Pods-GDObjcBlock/Pods-GDObjcBlock.release.xcconfig"; sourceTree = "<group>"; };
-		C8D64EFC1153ED3C94C1B7F4 /* Pods_GDObjcBlock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GDObjcBlock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,19 +49,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86D6B3D79B4302BFE35D072F /* Pods_GDObjcBlock.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		136308B8F104A8BE7E86B31E /* Frameworks */ = {
+		182E053B2227CC3700F28425 /* ObjcBlock */ = {
 			isa = PBXGroup;
 			children = (
-				C8D64EFC1153ED3C94C1B7F4 /* Pods_GDObjcBlock.framework */,
+				182E053C2227CC3700F28425 /* UIImageView+SettingBlock.m */,
+				182E053D2227CC3700F28425 /* UIButton+SettingBlock.m */,
+				182E053E2227CC3700F28425 /* UILabel+SettingBlock.m */,
+				182E053F2227CC3700F28425 /* UITextField+SettingBlock.m */,
+				182E05402227CC3700F28425 /* UIView+SettingBlock.m */,
+				182E05412227CC3700F28425 /* GDBlockHeader.h */,
+				182E05422227CC3700F28425 /* UIButton+SettingBlock.h */,
+				182E05432227CC3700F28425 /* UIImageView+SettingBlock.h */,
+				182E05442227CC3700F28425 /* UITextField+SettingBlock.h */,
+				182E05452227CC3700F28425 /* UILabel+SettingBlock.h */,
+				182E05462227CC3700F28425 /* UIView+SettingBlock.h */,
 			);
-			name = Frameworks;
+			path = ObjcBlock;
 			sourceTree = "<group>";
 		};
 		18335B6721B68B55004D13EE = {
@@ -73,8 +78,6 @@
 			children = (
 				18335B7221B68B55004D13EE /* GDObjcBlock */,
 				18335B7121B68B55004D13EE /* Products */,
-				C8AD642B8D3101B1290DDD50 /* Pods */,
-				136308B8F104A8BE7E86B31E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,7 +92,7 @@
 		18335B7221B68B55004D13EE /* GDObjcBlock */ = {
 			isa = PBXGroup;
 			children = (
-				18335B8921B68B80004D13EE /* ObjcBlock */,
+				182E053B2227CC3700F28425 /* ObjcBlock */,
 				18335B7321B68B55004D13EE /* AppDelegate.h */,
 				18335B7421B68B55004D13EE /* AppDelegate.m */,
 				18335B9A21B68B8E004D13EE /* ViewController.h */,
@@ -103,33 +106,6 @@
 			path = GDObjcBlock;
 			sourceTree = "<group>";
 		};
-		18335B8921B68B80004D13EE /* ObjcBlock */ = {
-			isa = PBXGroup;
-			children = (
-				18335B8F21B68B80004D13EE /* GDBlockHeader.h */,
-				18335B9021B68B80004D13EE /* UIButton+SettingBlock.h */,
-				18335B8B21B68B80004D13EE /* UIButton+SettingBlock.m */,
-				18335B9121B68B80004D13EE /* UIImageView+SettingBlock.h */,
-				18335B8A21B68B80004D13EE /* UIImageView+SettingBlock.m */,
-				18335B9321B68B80004D13EE /* UILabel+SettingBlock.h */,
-				18335B8C21B68B80004D13EE /* UILabel+SettingBlock.m */,
-				18335B9221B68B80004D13EE /* UITextField+SettingBlock.h */,
-				18335B8D21B68B80004D13EE /* UITextField+SettingBlock.m */,
-				18335B9421B68B80004D13EE /* UIView+SettingBlock.h */,
-				18335B8E21B68B80004D13EE /* UIView+SettingBlock.m */,
-			);
-			path = ObjcBlock;
-			sourceTree = "<group>";
-		};
-		C8AD642B8D3101B1290DDD50 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				73404B08134913487A756C4B /* Pods-GDObjcBlock.debug.xcconfig */,
-				A478B92E7DA47D6766325296 /* Pods-GDObjcBlock.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,11 +113,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18335B8621B68B56004D13EE /* Build configuration list for PBXNativeTarget "GDObjcBlock" */;
 			buildPhases = (
-				FB01F7EEDDFEB8AFCCA4ADFE /* [CP] Check Pods Manifest.lock */,
 				18335B6C21B68B55004D13EE /* Sources */,
 				18335B6D21B68B55004D13EE /* Frameworks */,
 				18335B6E21B68B55004D13EE /* Resources */,
-				7D1EE902A5CED14402E1B5F7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -197,66 +171,17 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		7D1EE902A5CED14402E1B5F7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-GDObjcBlock/Pods-GDObjcBlock-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBRetainCycleDetector/FBRetainCycleDetector.framework",
-				"${BUILT_PRODUCTS_DIR}/MLeaksFinder/MLeaksFinder.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBRetainCycleDetector.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLeaksFinder.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GDObjcBlock/Pods-GDObjcBlock-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FB01F7EEDDFEB8AFCCA4ADFE /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GDObjcBlock-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		18335B6C21B68B55004D13EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				18335B9F21B68B8E004D13EE /* ViewController.m in Sources */,
-				18335B9721B68B80004D13EE /* UILabel+SettingBlock.m in Sources */,
-				18335B9621B68B80004D13EE /* UIButton+SettingBlock.m in Sources */,
-				18335B9521B68B80004D13EE /* UIImageView+SettingBlock.m in Sources */,
-				18335B9821B68B80004D13EE /* UITextField+SettingBlock.m in Sources */,
-				18335B9921B68B80004D13EE /* UIView+SettingBlock.m in Sources */,
+				182E05492227CC3700F28425 /* UILabel+SettingBlock.m in Sources */,
+				182E05482227CC3700F28425 /* UIButton+SettingBlock.m in Sources */,
+				182E05472227CC3700F28425 /* UIImageView+SettingBlock.m in Sources */,
+				182E054A2227CC3700F28425 /* UITextField+SettingBlock.m in Sources */,
+				182E054B2227CC3700F28425 /* UIView+SettingBlock.m in Sources */,
 				18335B8321B68B56004D13EE /* main.m in Sources */,
 				18335B7521B68B55004D13EE /* AppDelegate.m in Sources */,
 			);
@@ -398,10 +323,10 @@
 		};
 		18335B8721B68B56004D13EE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73404B08134913487A756C4B /* Pods-GDObjcBlock.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = GDObjcBlock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -410,15 +335,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.startNet.www.GDObjcBlock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)";
 			};
 			name = Debug;
 		};
 		18335B8821B68B56004D13EE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A478B92E7DA47D6766325296 /* Pods-GDObjcBlock.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = GDObjcBlock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -427,6 +353,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.startNet.www.GDObjcBlock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)";
 			};
 			name = Release;
 		};
