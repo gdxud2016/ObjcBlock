@@ -8,10 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
+typedef void(^NSTimerEventCallBackBlock)(NSTimer * timer);
+
 
 @interface NSTimer (SettingBlock)
 
++ (NSTimer *)timerWithTimeInterval:(NSTimeInterval)ti repeats:(BOOL)yesOrNo eventCallBackBlock:(NSTimerEventCallBackBlock)callBackBlock;
+
++ (NSTimer *)scheduledTimerWithTimeInterval:(NSTimeInterval)ti repeats:(BOOL)yesOrNo eventCallBackBlock:(NSTimerEventCallBackBlock)callBackBlock;
+
 @end
 
-NS_ASSUME_NONNULL_END

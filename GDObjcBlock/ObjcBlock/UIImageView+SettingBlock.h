@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-NS_ASSUME_NONNULL_BEGIN
+
 
 @interface UIImageView (SettingBlock)
 
@@ -41,4 +41,4 @@ NS_ASSUME_NONNULL_BEGIN
 -(UIImageView *(^)(id target,SEL selecter))gd_addTapgesture;
 @end
 
-NS_ASSUME_NONNULL_END
+

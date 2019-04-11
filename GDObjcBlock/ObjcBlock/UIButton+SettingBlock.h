@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-NS_ASSUME_NONNULL_BEGIN
 
 @interface UIButton (SettingBlock)
 
@@ -76,11 +75,12 @@ NS_ASSUME_NONNULL_BEGIN
 -(UIButton *(^)(UIView * superView))gd_addToSuperView;
 
 /**
- 设置label 点击事件
- target:label的事件监听者
- selecter:点击方法
+ UIButton这个方法不可用
  */
--(UIButton *(^)(id target,SEL selecter))gd_addTapgesture;
+-(UIButton *(^)(id target,SEL selecter))gd_addTapgesture NS_UNAVAILABLE;
+
+
+
 @end
 
-NS_ASSUME_NONNULL_END
+

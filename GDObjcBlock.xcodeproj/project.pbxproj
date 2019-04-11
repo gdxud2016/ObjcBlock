@@ -18,6 +18,8 @@
 		18335B8021B68B56004D13EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18335B7E21B68B56004D13EE /* LaunchScreen.storyboard */; };
 		18335B8321B68B56004D13EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18335B8221B68B56004D13EE /* main.m */; };
 		18335B9F21B68B8E004D13EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18335B9D21B68B8E004D13EE /* ViewController.m */; };
+		18D202CC225DFF8000E6B7E5 /* NSTimer+SettingBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D202CB225DFF8000E6B7E5 /* NSTimer+SettingBlock.m */; };
+		18D202D2225E052400E6B7E5 /* BackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D202D1225E052400E6B7E5 /* BackViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,10 @@
 		18335B8221B68B56004D13EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18335B9A21B68B8E004D13EE /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		18335B9D21B68B8E004D13EE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18D202CA225DFF8000E6B7E5 /* NSTimer+SettingBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+SettingBlock.h"; sourceTree = "<group>"; };
+		18D202CB225DFF8000E6B7E5 /* NSTimer+SettingBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+SettingBlock.m"; sourceTree = "<group>"; };
+		18D202D0225E052400E6B7E5 /* BackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackViewController.h; sourceTree = "<group>"; };
+		18D202D1225E052400E6B7E5 /* BackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +64,19 @@
 		182E053B2227CC3700F28425 /* ObjcBlock */ = {
 			isa = PBXGroup;
 			children = (
-				182E053C2227CC3700F28425 /* UIImageView+SettingBlock.m */,
-				182E053D2227CC3700F28425 /* UIButton+SettingBlock.m */,
-				182E053E2227CC3700F28425 /* UILabel+SettingBlock.m */,
-				182E053F2227CC3700F28425 /* UITextField+SettingBlock.m */,
-				182E05402227CC3700F28425 /* UIView+SettingBlock.m */,
 				182E05412227CC3700F28425 /* GDBlockHeader.h */,
 				182E05422227CC3700F28425 /* UIButton+SettingBlock.h */,
+				182E053D2227CC3700F28425 /* UIButton+SettingBlock.m */,
 				182E05432227CC3700F28425 /* UIImageView+SettingBlock.h */,
-				182E05442227CC3700F28425 /* UITextField+SettingBlock.h */,
+				182E053C2227CC3700F28425 /* UIImageView+SettingBlock.m */,
 				182E05452227CC3700F28425 /* UILabel+SettingBlock.h */,
+				182E053E2227CC3700F28425 /* UILabel+SettingBlock.m */,
+				182E05442227CC3700F28425 /* UITextField+SettingBlock.h */,
+				182E053F2227CC3700F28425 /* UITextField+SettingBlock.m */,
 				182E05462227CC3700F28425 /* UIView+SettingBlock.h */,
+				182E05402227CC3700F28425 /* UIView+SettingBlock.m */,
+				18D202CA225DFF8000E6B7E5 /* NSTimer+SettingBlock.h */,
+				18D202CB225DFF8000E6B7E5 /* NSTimer+SettingBlock.m */,
 			);
 			path = ObjcBlock;
 			sourceTree = "<group>";
@@ -97,6 +105,8 @@
 				18335B7421B68B55004D13EE /* AppDelegate.m */,
 				18335B9A21B68B8E004D13EE /* ViewController.h */,
 				18335B9D21B68B8E004D13EE /* ViewController.m */,
+				18D202D0225E052400E6B7E5 /* BackViewController.h */,
+				18D202D1225E052400E6B7E5 /* BackViewController.m */,
 				18335B7921B68B55004D13EE /* Main.storyboard */,
 				18335B7C21B68B56004D13EE /* Assets.xcassets */,
 				18335B7E21B68B56004D13EE /* LaunchScreen.storyboard */,
@@ -179,8 +189,10 @@
 				18335B9F21B68B8E004D13EE /* ViewController.m in Sources */,
 				182E05492227CC3700F28425 /* UILabel+SettingBlock.m in Sources */,
 				182E05482227CC3700F28425 /* UIButton+SettingBlock.m in Sources */,
+				18D202CC225DFF8000E6B7E5 /* NSTimer+SettingBlock.m in Sources */,
 				182E05472227CC3700F28425 /* UIImageView+SettingBlock.m in Sources */,
 				182E054A2227CC3700F28425 /* UITextField+SettingBlock.m in Sources */,
+				18D202D2225E052400E6B7E5 /* BackViewController.m in Sources */,
 				182E054B2227CC3700F28425 /* UIView+SettingBlock.m in Sources */,
 				18335B8321B68B56004D13EE /* main.m in Sources */,
 				18335B7521B68B55004D13EE /* AppDelegate.m in Sources */,

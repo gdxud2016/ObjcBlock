@@ -7,7 +7,15 @@
 //
 
 #import "UIButton+SettingBlock.h"
+#import <objc/runtime.h>
 
+typedef void(^TouchEventCallBackBlock)(UIView * touchView);
+
+@interface UIButton ()
+
+@property(nonatomic,copy)TouchEventCallBackBlock eventBlock;
+
+@end
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored"-Wincomplete-implementation"
 
@@ -83,9 +91,32 @@
 }
 
 -(UIButton * (^)(id target, SEL selecter))gd_addTapgesture{
-    __weak typeof (self)weakSelf = self;
-    return ^(id target,SEL selecter){
-        return weakSelf.gd_addTarget(target,selecter);
-    };
+    NSAssert(nil, @"UIButton此方法不可用");
+    return nil;
 }
+
+-(void)gd_addObserverWithEventCallBackBlock:(TouchEventCallBackBlock)callBackBlock{
+    if (callBackBlock) {
+        self.eventBlock = callBackBlock;
+    }
+    [self addTarget:self action:@selector(buttonDidClick:) forControlEvents:UIControlEventTouchUpInside];
+}
+
+-(void)buttonDidClick:(UIButton *)sender
+{
+    if (self.eventBlock) {
+        self.eventBlock(self);
+    }
+}
+
+-(void)setEventBlock:(TouchEventCallBackBlock)eventBlock
+{
+    objc_setAssociatedObject(self, "buttenEventBlock", eventBlock, OBJC_ASSOCIATION_COPY_NONATOMIC);
+}
+
+-(TouchEventCallBackBlock)eventBlock
+{
+    return objc_getAssociatedObject(self, "buttenEventBlock");
+}
+
 @end

@@ -7,6 +7,13 @@
 //
 
 #import "UIView+SettingBlock.h"
+#import <objc/runtime.h>
+
+@interface UIView ()
+
+@property(nonatomic,copy)TouchEventCallBackBlock eventBlock;
+
+@end
 
 @implementation UIView (SettingBlock)
 
@@ -82,12 +89,42 @@
 
 -(instancetype(^)(UIView * superView))gd_addToSuperView
 {
-//    __weak typeof (self)weakSelf = self;
     return ^(UIView * superView){
         [superView addSubview:self];
         return self;
     };
 }
+
+-(void)gd_addObserverWithEventCallBackBlock:(TouchEventCallBackBlock)callBackBlock{
+    if (callBackBlock) {
+        self.eventBlock = callBackBlock;
+    }
+    self.userInteractionEnabled = YES;
+    UITapGestureRecognizer * gesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapView:)];
+    [self addGestureRecognizer:gesture];
+}
+
+
+-(void)tapView:(UITapGestureRecognizer *)gesture
+{
+    if (self.eventBlock) {
+        self.eventBlock(self);
+    }
+}
+
+
 #pragma clang diagnostic pop
+
+
+#pragma --mark setter and getter
+-(void)setEventBlock:(TouchEventCallBackBlock)eventBlock
+{
+    objc_setAssociatedObject(self, "viewEventBlock", eventBlock, OBJC_ASSOCIATION_COPY_NONATOMIC);
+}
+
+-(TouchEventCallBackBlock)eventBlock
+{
+    return objc_getAssociatedObject(self, "viewEventBlock");
+}
 
 @end
