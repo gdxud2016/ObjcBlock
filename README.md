@@ -3,8 +3,9 @@
 使用举例：
 
 UIView * new = [UIView gd_view:^(UIView *view) {
+
      view.gd_frame(CGRectMake(0, 0, 100, 100)).gd_backgroundColor([UIColor greenColor]);
      view.gd_addTapgesture(self,@selector(playGo:));
  }];
  
-[self.window addSubview:new];
+[self.view addSubview:new];
