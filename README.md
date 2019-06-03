@@ -1,10 +1,10 @@
-# ObjcBlock
-一个简单的库，给UILabel、UIButtton、 UIImageview、UIView的基础属性添加block语法，可以实现链式设置，可以将长串的设置集中到一个block中，
-实现类似masonry的效果。当前设置的属性并不多，不过模版已经打好，可以根据自己需要自行添加。
+一个简单的库，给UILabel、UIButtton、 UIImageview、UIView的基础属性添加block语法，可以实现类似masonry链式效果，
+可以将控件设置集中到一个block中。不过当前设置的属性并不多，可根据模版自行添加。
+使用举例：
 
-demo：
 UIView * new = [UIView gd_view:^(UIView *view) {
      view.gd_frame(CGRectMake(0, 0, 100, 100)).gd_backgroundColor([UIColor greenColor]);
      view.gd_addTapgesture(self,@selector(playGo:));
  }];
+ 
 [self.window addSubview:new];
