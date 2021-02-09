@@ -29,6 +29,7 @@
 
 -(UIView *(^)(id target,SEL selecter))gd_addTapgesture;
 
-@end
+-(void)gd_addTouchEventAndCallbackWithBlock:(void(^)(UIView *touchView))callbackBlock;
 
+@end
 

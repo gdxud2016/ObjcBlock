@@ -81,6 +81,9 @@ NS_ASSUME_NONNULL_BEGIN
  selecter:点击方法
  */
 -(UIButton *(^)(id target,SEL selecter))gd_addTapgesture;
+
+-(void)gd_addTouchEventAndCallbackWithBlock:(void (^)(UIButton *btn))callbackBlock;
+
 @end
 
 NS_ASSUME_NONNULL_END

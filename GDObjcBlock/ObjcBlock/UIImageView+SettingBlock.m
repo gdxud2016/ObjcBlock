@@ -7,6 +7,7 @@
 //
 
 #import "UIImageView+SettingBlock.h"
+#import "NSObject+Support.h"
 
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored"-Wincomplete-implementation"
@@ -38,6 +39,5 @@
     };
 }
 
-
-
 @end
+

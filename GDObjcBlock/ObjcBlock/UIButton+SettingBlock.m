@@ -7,12 +7,20 @@
 //
 
 #import "UIButton+SettingBlock.h"
+#import "NSObject+Support.h"
+#import <objc/runtime.h>
+
+
+@interface UIView ()
+
+@property (nonatomic, copy) void (^ ButtonTouchEventCallbackBlock)(UIButton *btn);
+
+@end
 
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored"-Wincomplete-implementation"
 
 @implementation UIButton (SettingBlock)
-
 
 +(instancetype)gd_button:(void(^)(UIButton * button))block
 {
@@ -69,6 +77,12 @@
 -(UIButton *(^)(id target,SEL selecter))gd_addTarget
 {
     return ^(id target,SEL selecter){
+        self.userInteractionEnabled = YES;
+        if ([target isKindOfClass:[NSObject class]] && [(NSObject *)target respondsToSelector:selecter]) {
+            [self addTarget:target action:selecter forControlEvents:UIControlEventTouchUpInside];
+        }else{
+            NSAssert(NO, @"添加点击事件没有响应的方法");
+        }
         [self addTarget:target action:selecter forControlEvents:UIControlEventTouchUpInside];
         return self;
     };
@@ -88,4 +102,25 @@
         return weakSelf.gd_addTarget(target,selecter);
     };
 }
+
+-(void)gd_addTouchEventAndCallbackWithBlock:(void (^)(UIButton *btn))callbackBlock{
+    self.ButtonTouchEventCallbackBlock = callbackBlock;
+    [self addTarget:self action:@selector(touchViewAction:) forControlEvents:UIControlEventTouchUpInside];
+}
+
+- (void)touchViewAction:(UIButton *)sender {
+    if (self.ButtonTouchEventCallbackBlock) {
+        self.ButtonTouchEventCallbackBlock(sender);
+    }
+}
+
+- (void)setButtonTouchEventCallbackBlock:(void (^)(UIButton *))ButtonTouchEventCallbackBlock{
+    objc_setAssociatedObject(self, @selector(ButtonTouchEventCallbackBlock), ButtonTouchEventCallbackBlock, OBJC_ASSOCIATION_COPY_NONATOMIC);
+}
+
+-(void (^)(UIButton *))ButtonTouchEventCallbackBlock{
+    return objc_getAssociatedObject(self, @selector(ButtonTouchEventCallbackBlock));
+}
+
 @end
+

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182081BE25D23235000FBB44 /* GDExpandButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 182081BA25D23235000FBB44 /* GDExpandButton.m */; };
+		182081BF25D23235000FBB44 /* XDInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 182081BC25D23235000FBB44 /* XDInvocation.m */; };
 		182E05472227CC3700F28425 /* UIImageView+SettingBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 182E053C2227CC3700F28425 /* UIImageView+SettingBlock.m */; };
 		182E05482227CC3700F28425 /* UIButton+SettingBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 182E053D2227CC3700F28425 /* UIButton+SettingBlock.m */; };
 		182E05492227CC3700F28425 /* UILabel+SettingBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 182E053E2227CC3700F28425 /* UILabel+SettingBlock.m */; };
@@ -18,9 +20,17 @@
 		18335B8021B68B56004D13EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18335B7E21B68B56004D13EE /* LaunchScreen.storyboard */; };
 		18335B8321B68B56004D13EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18335B8221B68B56004D13EE /* main.m */; };
 		18335B9F21B68B8E004D13EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18335B9D21B68B8E004D13EE /* ViewController.m */; };
+		186C034922DEC238008D8549 /* LastTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186C034822DEC238008D8549 /* LastTableViewController.m */; };
+		186C034C22DEC3AB008D8549 /* GDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 186C034B22DEC3AB008D8549 /* GDTableViewCell.m */; };
+		1899AFDA22DDC79100D291D6 /* NSObject+Support.m in Sources */ = {isa = PBXBuildFile; fileRef = 1899AFD922DDC79100D291D6 /* NSObject+Support.m */; };
+		1899AFDD22DDCD4400D291D6 /* GDExpandImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1899AFDC22DDCD4400D291D6 /* GDExpandImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		182081BA25D23235000FBB44 /* GDExpandButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDExpandButton.m; sourceTree = "<group>"; };
+		182081BB25D23235000FBB44 /* XDInvocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDInvocation.h; sourceTree = "<group>"; };
+		182081BC25D23235000FBB44 /* XDInvocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDInvocation.m; sourceTree = "<group>"; };
+		182081BD25D23235000FBB44 /* GDExpandButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDExpandButton.h; sourceTree = "<group>"; };
 		182E053C2227CC3700F28425 /* UIImageView+SettingBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SettingBlock.m"; sourceTree = "<group>"; };
 		182E053D2227CC3700F28425 /* UIButton+SettingBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SettingBlock.m"; sourceTree = "<group>"; };
 		182E053E2227CC3700F28425 /* UILabel+SettingBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+SettingBlock.m"; sourceTree = "<group>"; };
@@ -42,6 +52,14 @@
 		18335B8221B68B56004D13EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18335B9A21B68B8E004D13EE /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		18335B9D21B68B8E004D13EE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		186C034722DEC238008D8549 /* LastTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LastTableViewController.h; sourceTree = "<group>"; };
+		186C034822DEC238008D8549 /* LastTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LastTableViewController.m; sourceTree = "<group>"; };
+		186C034A22DEC3AB008D8549 /* GDTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDTableViewCell.h; sourceTree = "<group>"; };
+		186C034B22DEC3AB008D8549 /* GDTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDTableViewCell.m; sourceTree = "<group>"; };
+		1899AFD822DDC79100D291D6 /* NSObject+Support.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Support.h"; sourceTree = "<group>"; };
+		1899AFD922DDC79100D291D6 /* NSObject+Support.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Support.m"; sourceTree = "<group>"; };
+		1899AFDB22DDCD4400D291D6 /* GDExpandImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDExpandImageView.h; sourceTree = "<group>"; };
+		1899AFDC22DDCD4400D291D6 /* GDExpandImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDExpandImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +76,25 @@
 		182E053B2227CC3700F28425 /* ObjcBlock */ = {
 			isa = PBXGroup;
 			children = (
-				182E053C2227CC3700F28425 /* UIImageView+SettingBlock.m */,
-				182E053D2227CC3700F28425 /* UIButton+SettingBlock.m */,
-				182E053E2227CC3700F28425 /* UILabel+SettingBlock.m */,
-				182E053F2227CC3700F28425 /* UITextField+SettingBlock.m */,
-				182E05402227CC3700F28425 /* UIView+SettingBlock.m */,
+				182081BD25D23235000FBB44 /* GDExpandButton.h */,
+				182081BA25D23235000FBB44 /* GDExpandButton.m */,
+				182081BB25D23235000FBB44 /* XDInvocation.h */,
+				182081BC25D23235000FBB44 /* XDInvocation.m */,
 				182E05412227CC3700F28425 /* GDBlockHeader.h */,
 				182E05422227CC3700F28425 /* UIButton+SettingBlock.h */,
+				182E053D2227CC3700F28425 /* UIButton+SettingBlock.m */,
 				182E05432227CC3700F28425 /* UIImageView+SettingBlock.h */,
-				182E05442227CC3700F28425 /* UITextField+SettingBlock.h */,
+				182E053C2227CC3700F28425 /* UIImageView+SettingBlock.m */,
 				182E05452227CC3700F28425 /* UILabel+SettingBlock.h */,
+				182E053E2227CC3700F28425 /* UILabel+SettingBlock.m */,
+				182E05442227CC3700F28425 /* UITextField+SettingBlock.h */,
+				182E053F2227CC3700F28425 /* UITextField+SettingBlock.m */,
 				182E05462227CC3700F28425 /* UIView+SettingBlock.h */,
+				182E05402227CC3700F28425 /* UIView+SettingBlock.m */,
+				1899AFD822DDC79100D291D6 /* NSObject+Support.h */,
+				1899AFD922DDC79100D291D6 /* NSObject+Support.m */,
+				1899AFDB22DDCD4400D291D6 /* GDExpandImageView.h */,
+				1899AFDC22DDCD4400D291D6 /* GDExpandImageView.m */,
 			);
 			path = ObjcBlock;
 			sourceTree = "<group>";
@@ -97,6 +123,10 @@
 				18335B7421B68B55004D13EE /* AppDelegate.m */,
 				18335B9A21B68B8E004D13EE /* ViewController.h */,
 				18335B9D21B68B8E004D13EE /* ViewController.m */,
+				186C034722DEC238008D8549 /* LastTableViewController.h */,
+				186C034822DEC238008D8549 /* LastTableViewController.m */,
+				186C034A22DEC3AB008D8549 /* GDTableViewCell.h */,
+				186C034B22DEC3AB008D8549 /* GDTableViewCell.m */,
 				18335B7921B68B55004D13EE /* Main.storyboard */,
 				18335B7C21B68B56004D13EE /* Assets.xcassets */,
 				18335B7E21B68B56004D13EE /* LaunchScreen.storyboard */,
@@ -176,12 +206,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1899AFDA22DDC79100D291D6 /* NSObject+Support.m in Sources */,
+				182081BE25D23235000FBB44 /* GDExpandButton.m in Sources */,
+				1899AFDD22DDCD4400D291D6 /* GDExpandImageView.m in Sources */,
+				186C034C22DEC3AB008D8549 /* GDTableViewCell.m in Sources */,
 				18335B9F21B68B8E004D13EE /* ViewController.m in Sources */,
 				182E05492227CC3700F28425 /* UILabel+SettingBlock.m in Sources */,
 				182E05482227CC3700F28425 /* UIButton+SettingBlock.m in Sources */,
+				186C034922DEC238008D8549 /* LastTableViewController.m in Sources */,
 				182E05472227CC3700F28425 /* UIImageView+SettingBlock.m in Sources */,
 				182E054A2227CC3700F28425 /* UITextField+SettingBlock.m in Sources */,
 				182E054B2227CC3700F28425 /* UIView+SettingBlock.m in Sources */,
+				182081BF25D23235000FBB44 /* XDInvocation.m in Sources */,
 				18335B8321B68B56004D13EE /* main.m in Sources */,
 				18335B7521B68B55004D13EE /* AppDelegate.m in Sources */,
 			);
@@ -325,16 +361,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development: keyong  li (UN2ZT8655N)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = LWZ3K4QY84;
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = GDObjcBlock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.startNet.www.GDObjcBlock;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.jeean.JeeAnExpert;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE_SPECIFIER = JeeanExpertProfile;
+				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)";
 			};
 			name = Debug;
@@ -343,16 +383,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: StarArc Netword Co., Ltd (LWZ3K4QY84)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = LWZ3K4QY84;
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = GDObjcBlock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.startNet.www.GDObjcBlock;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.jeean.JeeAnExpert;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE_SPECIFIER = JeeanExpertDistributeProfile;
+				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)";
 			};
 			name = Release;
