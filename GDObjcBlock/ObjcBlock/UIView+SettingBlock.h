@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void(^TouchEventCallBackBlock)(UIView * touchView);
 
 @interface UIView (SettingBlock)
 
@@ -29,7 +30,8 @@
 
 -(UIView *(^)(id target,SEL selecter))gd_addTapgesture;
 
--(void)gd_addTouchEventAndCallbackWithBlock:(void(^)(UIView *touchView))callbackBlock;
+-(void)gd_addTouchEventAndCallbackWithBlock:(TouchEventCallBackBlock)callbackBlock;
 
 @end
+
 

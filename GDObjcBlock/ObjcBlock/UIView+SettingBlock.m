@@ -103,6 +103,7 @@
 }
 
 - (void)gd_addTouchEventAndCallbackWithBlock:(void (^)(UIView *touchView))callbackBlock {
+    self.userInteractionEnabled = YES;
     self.TouchEventCallbackBlock = callbackBlock;
     UITapGestureRecognizer *tapges = [[UITapGestureRecognizer alloc] initWithTarget:self
                                                                              action:@selector(touchViewAction:)];
@@ -122,6 +123,17 @@
 
 - (void (^)(UIView *))TouchEventCallbackBlock {
     return objc_getAssociatedObject(self, @selector(TouchEventCallbackBlock));
+}
+
+#pragma --mark setter and getter
+-(void)setEventBlock:(TouchEventCallBackBlock)eventBlock
+{
+    objc_setAssociatedObject(self, "viewEventBlock", eventBlock, OBJC_ASSOCIATION_COPY_NONATOMIC);
+}
+
+-(TouchEventCallBackBlock)eventBlock
+{
+    return objc_getAssociatedObject(self, "viewEventBlock");
 }
 
 @end
